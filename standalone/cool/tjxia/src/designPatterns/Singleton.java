@@ -45,7 +45,7 @@ public class Singleton {
         }
     }
 
-    
+
     static class EnumSingleton{
         private EnumSingleton(){};
     }
