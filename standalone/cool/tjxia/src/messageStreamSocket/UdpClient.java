@@ -1,13 +1,13 @@
-package socket;
+package messageStreamSocket;
 
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 import java.net.InetAddress;
 import java.util.Scanner;
 
-public class udpClient {
+public class UdpClient {
     public static void main(String[] args) throws Exception {
-        // build a socket
+        // build a messageStreamSocket.socket
         DatagramSocket datagramSocket = new DatagramSocket();
 
         // Claim target address

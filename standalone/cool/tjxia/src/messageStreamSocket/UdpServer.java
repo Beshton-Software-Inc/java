@@ -1,12 +1,12 @@
-package socket;
+package messageStreamSocket;
 
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 
-public class udpServer {
+public class UdpServer {
     public static void main(String[] args) throws Exception {
 
-        // build new socket
+        // build new messageStreamSocket.socket
         DatagramSocket datagramSocket = new DatagramSocket(6324);
 
         // receive data
