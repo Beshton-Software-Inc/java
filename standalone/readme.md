@@ -19,4 +19,4 @@ Wach folder solve a problem in the list of home work.
 17. Threadpool, Assign task to the thread pool. Construct a scenario. 
 18. Blocking queue, Construct a scenario for this case.
 19. What is immutable, Implement an immutable class (e.g. myDateTime) 
-
+ 
